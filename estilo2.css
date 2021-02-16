@@ -1,0 +1,106 @@
+/*Geral*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #dcdcdc;
+	font-family: "trebuchet-MS",helvetica, sans-serif;
+}
+#menu-topo a{
+	text-decoration: none;
+	margin: 5px;
+	padding: 5px
+}
+/*Menu principal e logo*/
+#area-principal{
+	background: #FFA500;
+}
+#logo{
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+#branco{
+	color: #FFF;
+}
+#menu-topo{
+	font-size: 1.1em;
+	text-align: center;
+	padding: 15px;
+}
+#menu-topo a:link, #menu-topo a:visited{
+	color: #FFF;
+}
+#menu-topo a:hover{
+	color: #FFA500;
+	background: #FFF;
+}
+#menu-topo a:active{
+	color: black;
+}
+/*Area de postagem*/
+#area-postagem{
+	width: 920px;
+	padding: 1px;
+	margin: 0 auto;
+}
+.postagem{
+	width: 600px;
+	background: #FFF;
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+h2{
+	color:#FFA500;
+}
+.sub{
+	font-size: 0.8em;
+	display: block;
+	border-bottom: 2px solid #c0c0c0;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+}
+p{
+	text-align: justify;
+}
+.leia-mais{
+	text-decoration: none;
+	color: #FFA500;
+}
+/* menu lateral */
+.menu-lateral{
+	float: right;
+	width: 240px;
+	background: #dcdcdc;
+	padding: 10px;
+}
+h3{
+	font-size: 1em;
+	background: #a9a9a9;
+	padding: 5px;
+	text-align: center;
+}
+.texto-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+}
+.leia-mais2{
+	text-decoration: none;
+	color: #FFA500;
+	font-size: 0.8em;
+}
+.postagem-lateral{
+	background: #FFF;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#rodape{
+	background: #4f4f4f;
+	text-align: center;
+	padding: 15px;
+	font-size: 1em;
+}
